@@ -20,7 +20,7 @@ It provides an **interactive CLI** for quick k-mesh generation and spin texture 
 
 ## Installation
 
-Clone the repository and install in **editable mode**:
+Clone the repository and install it:
 
 ```bash
 # Clone the repository
@@ -32,7 +32,7 @@ python3 -m venv ~/.venvs/spintexture
 source ~/.venvs/spintexture/bin/activate
 
 # Install the package
-pip install -e .
+pip install .
 ```
 
 
