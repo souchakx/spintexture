@@ -1,7 +1,4 @@
-# spintexture
-
-````markdown
-# SpinTexture v0.1.0
+# spintexture v0.1.0
 
 **SpinTexture** is a Python package for generating k-meshes and visualizing spin textures for **2D materials**.  
 It provides an **interactive CLI** for quick k-mesh generation and spin texture visualization from VASP/DFT outputs.
@@ -36,7 +33,8 @@ source ~/.venvs/spintexture/bin/activate
 
 # Install the package
 pip install -e .
-````
+```
+
 
 Dependencies (`numpy`, `matplotlib`, `scipy`) are automatically installed.
 
@@ -55,7 +53,10 @@ spintexture
 You will see the main menu:
 
 ```
-=== SpinTexture Interactive CLI ===
+   ==========================================
+    SPINTEXTURE PACKAGE - CLI INTERFACE
+    Tools for K-mesh generation & Spin plots
+   ==========================================
 1. 2D Materials
 0. Exit
 ```
