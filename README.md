@@ -127,7 +127,7 @@ spintexture/
 
 ## Development
 
-* **Python**: ≥3.10
+* **Python**: ≥3.8
 * **Dependencies**: `numpy`, `matplotlib`, `scipy`
 * Editable install allows live development:
 
@@ -143,6 +143,6 @@ pip install .
 
 If you use this code in your work, please cite:
 
-*SpinTexture v0.1.0, Souvick Chakraborty (2025).*
+*spintexture v0.1.0, Souvick Chakraborty (2025).*
 
 ---
