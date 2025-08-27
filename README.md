@@ -132,7 +132,7 @@ spintexture/
 * Editable install allows live development:
 
 ```bash
-pip install -e .
+pip install .
 ```
 
 * Contributions are welcome via fork & pull request.
