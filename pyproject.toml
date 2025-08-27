@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spintexture"
+version = "0.1.0"
+description = "Tools for generating K-mesh grids and plotting 2D/3D spin textures from VASP outputs."
+authors = [
+    { name = "Souvick Chakraborty", email = "" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scipy"
+]
+
+[project.urls]
+Homepage = "https://github.com/souchakx/spintexture"
+Repository = "https://github.com/souchakx/spintexture"
+
+[project.scripts]
+spintexture = "spintexture.cli:main"
