@@ -129,11 +129,7 @@ spintexture/
 
 * **Python**: ≥3.8
 * **Dependencies**: `numpy`, `matplotlib`, `scipy`
-* Editable install allows live development:
 
-```bash
-pip install .
-```
 
 * Contributions are welcome via fork & pull request.
 
